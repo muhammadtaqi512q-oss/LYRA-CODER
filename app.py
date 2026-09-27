@@ -4,10 +4,10 @@ from transformers import pipeline
 
 app = Flask(__name__)
 
-print("Loading Qwen1.5 0.5B Chat Model...")
+print("Loading Qwen2.5-Coder-1.5B-Instruct Model...")
 pipe = pipeline(
     "text-generation",
-    model="muhammad-taqi512/LYRA",
+    model="muhammad-taqi512/LYRA-CODER",
     torch_dtype=torch.float32,
     device_map="auto"
 )
@@ -26,7 +26,7 @@ def generate():
         return jsonify({"response": "Please enter a message."}), 400
 
     messages = [
-        {"role": "system", "content": "You are a helpful AI assistant, YOUR NAME IS LYRA AND YOU ARE FEMALE AI, YOUR OWNER AND CREATOR AND FOUNDER ARE MUHAMMAD TAQI."},
+        {"role": "system", "content": "You are a helpful AI assistant, YOUR NAME IS LYRA-CODER AND YOU ARE FEMALE AI, YOUR OWNER AND CREATOR AND FOUNDER ARE MUHAMMAD TAQI."},
         {"role": "user", "content": user_prompt}
     ]
     
@@ -45,7 +45,7 @@ def generate():
     
     generated_text = outputs[0]["generated_text"]
     
-    # Qwen1.5 ChatML format handle karne ke liye parsing update
+    # Parsing updated for ChatML format
     if "<|im_start|>assistant" in generated_text:
         response = generated_text.split("<|im_start|>assistant")[-1].replace("<|im_end|>", "").strip()
     else:
