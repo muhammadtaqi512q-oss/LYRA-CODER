@@ -1,6 +1,6 @@
 # TinyLlama AI Agent
 
 ### 🚀 Live Demo (Auto-Updated Every 6 Hours)
-**Active URL:** [https://boxes-deliver-heights-charlie.trycloudflare.com](https://boxes-deliver-heights-charlie.trycloudflare.com)
+**Active URL:** [https://hay-douglas-manufacturers-sox.trycloudflare.com](https://hay-douglas-manufacturers-sox.trycloudflare.com)
 
-_Last Updated: Sun Oct  4 16:25:06 UTC 2026_
+_Last Updated: Sun Oct  4 20:51:55 UTC 2026_
