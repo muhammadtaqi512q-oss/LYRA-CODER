@@ -1,6 +1,6 @@
 # TinyLlama AI Agent
 
 ### 🚀 Live Demo (Auto-Updated Every 6 Hours)
-**Active URL:** [https://some-screens-embedded-camcorder.trycloudflare.com](https://some-screens-embedded-camcorder.trycloudflare.com)
+**Active URL:** [https://perfume-soc-automated-bundle.trycloudflare.com](https://perfume-soc-automated-bundle.trycloudflare.com)
 
-_Last Updated: Thu Oct  8 22:51:56 UTC 2026_
+_Last Updated: Fri Oct  9 04:27:56 UTC 2026_
