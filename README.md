@@ -1,6 +1,6 @@
 # TinyLlama AI Agent
 
 ### 🚀 Live Demo (Auto-Updated Every 6 Hours)
-**Active URL:** [https://realm-thing-moved-jill.trycloudflare.com](https://realm-thing-moved-jill.trycloudflare.com)
+**Active URL:** [https://briefing-trailer-recipient-worldwide.trycloudflare.com](https://briefing-trailer-recipient-worldwide.trycloudflare.com)
 
-_Last Updated: Wed Oct 21 16:35:15 UTC 2026_
+_Last Updated: Wed Oct 21 21:14:50 UTC 2026_
